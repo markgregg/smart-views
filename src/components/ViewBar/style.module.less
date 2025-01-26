@@ -1,0 +1,51 @@
+@import (reference) '../../util/common.less';
+
+.viewBar {
+  position: relative;
+  width: 100%;
+  font-family: @font-family;
+
+  .viewBarInner {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border: 1px solid @border;
+    border-radius: 3px;
+    background-color: @background;
+
+    &:hover {
+      border-color: @hover;
+    }
+
+    &:focus-within {
+      border-color: @focus;
+    }
+  }
+}
+
+.compact {
+  height: @height-compact;
+}
+
+.normal {
+  height: @height;
+}
+
+.large {
+  height: @height-large;
+}
+
+.font-compact {
+  line-height: @line-height-compact;
+  font-size: @font-size-compact;
+}
+
+.font-normal {
+  line-height: @line-height;
+  font-size: @font-size;
+}
+
+.font-large {
+  line-height: @line-height-large;
+  font-size: @font-size-large;
+}
