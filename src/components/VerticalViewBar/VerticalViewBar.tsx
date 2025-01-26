@@ -14,7 +14,7 @@ export const VerticalViewBar = React.memo(() => {
 
   return (
     <div
-      id="sf-horizontal-view-bar"
+      id="sv-horizontal-view-bar"
       className={s.veticalViewBar}
     >
 

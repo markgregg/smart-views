@@ -16,14 +16,14 @@ export const ViewBar = React.memo(() => {
 
   return (
     <div
-      id="sf-view-bar"
+      id="sv-view-bar"
       // eslint-disable-next-line jsx-a11y/no-noninteractive-tabindex
       tabIndex={0}
       className={[s.viewBar, s[size], s[`font-${size}`]].join(' ')}
     >
       <div className={s.viewBarInner}>
         <Button
-          id="sf-view-bar-menu"
+          id="sv-view-bar-menu"
           onClick={handleClick}
           height={26}
           width={26}
